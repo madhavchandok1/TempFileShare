@@ -1,0 +1,69 @@
+# .NET-related files
+**/*.dotnet/
+
+# User-specific files
+**/*.rsuser
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+# Auto-generated files
+**/*.vs/
+**/.vscode/
+
+# Build output
+**/bin/
+**/obj/
+**/out/
+**/TestResults/
+
+# Temporary files
+**/*.tmp
+**/*.temp
+**/*.cache
+**/*.pdb
+**/*.mdb
+
+# Project-specific files
+**/appsettings.json
+**/appsettings.*.json
+
+# Project-specific folders
+**/Migrations
+
+# Rider-specific files
+**/.idea/
+**/*.sln.iml
+
+# Logs
+**/*.log
+
+# OS-generated files
+**/.DS_Store
+**/Thumbs.db
+**/*.class
+
+# NuGet packages
+**/*.nupkg
+**/packages/
+
+# Backup & Metadata files
+**/*.bak
+**/*.orig
+**/*.manifest
+
+# Coverage files
+**/coverage/
+**/*.coverage
+**/*.coveragexml
+**/*.coverage.json
+
+# Dotnet Tools
+**/.dotnet_tools/
+
+# NUnit specific
+**/*.TestResult.xml
+
+# ReSharper files
+**/_ReSharper*/

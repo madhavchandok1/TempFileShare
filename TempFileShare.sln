@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE331476-EAF2-4E1C-B1B6-573701C76308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempFileShare", "src\TempFileShare\TempFileShare.csproj", "{7F7D2E43-A659-4DD3-878E-81D5E78F94FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempFileShare.Contracts", "src\TempFileShare.Contracts\TempFileShare.Contracts.csproj", "{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempFileShare.DataAccessLayer", "src\TempFileShare.DataAccessLayer\TempFileShare.DataAccessLayer.csproj", "{0650996A-30A0-4067-AD9E-56E923BC917A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempFileShare.Repositories", "src\TempFileShare.Repositories\TempFileShare.Repositories.csproj", "{3E62088E-B8D0-4531-98B6-4F94D4615EF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempFileShare.Utilities", "src\TempFileShare.Utilities\TempFileShare.Utilities.csproj", "{5737B5CA-C0F2-41AC-A580-A0EAF88872F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B2D6714-3B70-4A37-83DD-40C6D27E4E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7D2E43-A659-4DD3-878E-81D5E78F94FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7D2E43-A659-4DD3-878E-81D5E78F94FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7D2E43-A659-4DD3-878E-81D5E78F94FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7D2E43-A659-4DD3-878E-81D5E78F94FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0650996A-30A0-4067-AD9E-56E923BC917A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0650996A-30A0-4067-AD9E-56E923BC917A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0650996A-30A0-4067-AD9E-56E923BC917A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0650996A-30A0-4067-AD9E-56E923BC917A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E62088E-B8D0-4531-98B6-4F94D4615EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E62088E-B8D0-4531-98B6-4F94D4615EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E62088E-B8D0-4531-98B6-4F94D4615EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E62088E-B8D0-4531-98B6-4F94D4615EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5737B5CA-C0F2-41AC-A580-A0EAF88872F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5737B5CA-C0F2-41AC-A580-A0EAF88872F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5737B5CA-C0F2-41AC-A580-A0EAF88872F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5737B5CA-C0F2-41AC-A580-A0EAF88872F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F7D2E43-A659-4DD3-878E-81D5E78F94FA} = {AE331476-EAF2-4E1C-B1B6-573701C76308}
+		{40B632FE-06DD-4EF9-AF3B-F30C252FBD6D} = {AE331476-EAF2-4E1C-B1B6-573701C76308}
+		{0650996A-30A0-4067-AD9E-56E923BC917A} = {AE331476-EAF2-4E1C-B1B6-573701C76308}
+		{3E62088E-B8D0-4531-98B6-4F94D4615EF8} = {AE331476-EAF2-4E1C-B1B6-573701C76308}
+		{5737B5CA-C0F2-41AC-A580-A0EAF88872F7} = {AE331476-EAF2-4E1C-B1B6-573701C76308}
+	EndGlobalSection
+EndGlobal
